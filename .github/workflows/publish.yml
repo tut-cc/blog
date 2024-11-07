@@ -9,7 +9,7 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    if: github.repository == 'tut-cc/blog.tut-cc.org'
+    if: github.repository == 'tut-cc/blog'
     permissions:
       contents: read
       deployments: write
